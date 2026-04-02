@@ -15,16 +15,21 @@ import { ReportModule } from './modules/report/report.module';
     ConfigModule.forRoot({ isGlobal: true }),
     TypeOrmModule.forRootAsync({
       inject: [ConfigService],
-      useFactory: (config: ConfigService) => ({
-        type: 'postgres',
-        host: config.get('DB_HOST', 'localhost'),
-        port: config.get<number>('DB_PORT', 5432),
-        username: config.get('DB_USERNAME', 'postgres'),
-        password: config.get('DB_PASSWORD', 'postgres'),
-        database: config.get('DB_NAME', 'economia_cuantitativa'),
-        entities: [Carrera, Ciclo, Curso, Semana, Evaluacion, Nota, Ejercicio],
-        synchronize: true,
-      }),
+      useFactory: (config: ConfigService) => {
+        const dbSynchronize = config.get<string>('DB_SYNCHRONIZE');
+        const isProduction = config.get<string>('NODE_ENV') === 'production';
+
+        return {
+          type: 'postgres' as const,
+          host: config.get<string>('DB_HOST', 'localhost'),
+          port: config.get<number>('DB_PORT', 5432),
+          username: config.get<string>('DB_USERNAME', 'postgres'),
+          password: config.get<string>('DB_PASSWORD', 'postgres'),
+          database: config.get<string>('DB_NAME', 'economia_cuantitativa'),
+          entities: [Carrera, Ciclo, Curso, Semana, Evaluacion, Nota, Ejercicio],
+          synchronize: dbSynchronize ? dbSynchronize === 'true' : !isProduction,
+        };
+      },
     }),
     SeedModule,
     CarreraModule,

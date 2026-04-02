@@ -1,0 +1,481 @@
+id,curso_id,number,title,topics,type
+1,1,1,Lógica Proposicional,"Proposiciones y conectivos lógicos; Tablas de verdad; Tautologías y contradicciones; Razonamiento económico formal",class
+2,1,2,Teoría de Conjuntos,"Conjuntos subconjuntos operaciones; Diagramas de Venn; Producto cartesiano y relaciones; Conjuntos de posibilidades de consumo",class
+3,1,3,Funciones Reales I,"Concepto de función dominio y rango; Funciones lineales y cuadráticas; Representación gráfica; Funciones de demanda y oferta",class
+4,1,4,Funciones Reales II,"Funciones exponenciales y logarítmicas; Funciones compuestas e inversas; Propiedades y transformaciones; Crecimiento económico interés compuesto",class
+5,1,5,Límites I,"Concepto intuitivo y formal de límite; Límites laterales; Propiedades de los límites; Comportamiento de funciones de costo a largo plazo",class
+6,1,6,Límites II y Continuidad,"Límites al infinito y asíntotas; Continuidad de funciones; Tipos de discontinuidad; Funciones de utilidad continuas vs discretas",class
+7,1,7,Repaso Pre-Parcial,"Repaso integral: lógica conjuntos funciones límites; Resolución de problemas tipo examen; Ejercicios aplicados a economía",review
+8,1,8,EXAMEN PARCIAL,"Lógica matemática y teoría de conjuntos; Funciones reales y sus propiedades; Límites y continuidad",exam
+9,1,9,Derivadas I: Concepto,"Tasa de cambio y pendiente de la recta tangente; Definición formal de derivada; Derivadas de funciones básicas; Costo marginal",class
+10,1,10,Derivadas II: Reglas,"Regla de la suma producto y cociente; Regla de la cadena; Derivadas de exponenciales y logarítmicas; Ingreso marginal",class
+11,1,11,Aplicaciones de la Derivada I,"Elasticidad precio de la demanda; Elasticidad ingreso y cruzada; Relación ingreso marginal y elasticidad",class
+12,1,12,Aplicaciones de la Derivada II,"Optimización: máximos y mínimos; Criterio primera y segunda derivada; Maximización de beneficios; Puntos de inflexión",class
+13,1,13,Integración I,"Antiderivadas e integral indefinida; Reglas básicas de integración; Integral de polinómicas y exponenciales; Excedente del consumidor",class
+14,1,14,Integración II,"Integral definida y Teorema Fundamental; Área bajo la curva; Integración por sustitución; Cálculo de excedentes y costos totales",class
+15,1,15,Repaso Pre-Final,"Repaso: derivadas aplicaciones integración; Resolución de problemas tipo examen final; Ejercicios integradores",review
+16,1,16,EXAMEN FINAL,"Derivadas y reglas de diferenciación; Aplicaciones económicas de la derivada; Introducción a la integración",exam
+17,2,1,¿Qué es la Economía?,"Definición de economía: micro vs macro; Problema de la escasez y la elección; Costo de oportunidad; Frontera de posibilidades de producción",class
+18,2,2,Principios Fundamentales,"Los 10 principios de Mankiw; Incentivos y trade-offs; Pensamiento marginal; Ventaja comparativa y comercio",class
+19,2,3,Oferta y Demanda I,"Ley de la demanda y curva de demanda; Determinantes de la demanda; Ley de la oferta y curva de oferta; Determinantes de la oferta",class
+20,2,4,Oferta y Demanda II: Equilibrio,"Equilibrio de mercado; Desplazamientos vs movimientos sobre la curva; Excedente del consumidor y productor; Controles de precios",class
+21,2,5,Elasticidad I,"Elasticidad precio de la demanda; Cálculo e interpretación; Demanda elástica inelástica y unitaria; Relación elasticidad e ingreso total",class
+22,2,6,Elasticidad II y Eficiencia,"Elasticidad ingreso y cruzada; Elasticidad de la oferta; Eficiencia del mercado y bienestar; Pérdida de eficiencia",class
+23,2,7,Estructuras de Mercado I,"Competencia perfecta: características y equilibrio; Monopolio: poder de mercado; Comparación de resultados",class
+24,2,8,EXAMEN PARCIAL,"Principios de economía y escasez; Oferta demanda y equilibrio; Elasticidad; Estructuras de mercado intro",exam
+25,2,9,Estructuras de Mercado II,"Oligopolio y competencia monopolística; Colusión y dilema del prisionero; Diferenciación de producto; Casos reales",class
+26,2,10,Indicadores Macro I,"PIB: definición componentes y métodos; PIB nominal vs real; PIB per cápita; Limitaciones del PIB",class
+27,2,11,Indicadores Macro II,"Inflación: IPC deflactor; Causas de la inflación; Desempleo: tipos y tasa natural; Curva de Phillips intro",class
+28,2,12,Política Fiscal,"Rol del gobierno; Gasto público e impuestos; Déficit fiscal y deuda pública; Multiplicador del gasto",class
+29,2,13,Política Monetaria,"Dinero: funciones y tipos; Sistema bancario; Banco central y herramientas; Tasa de interés y su efecto",class
+30,2,14,Comercio Internacional,"Ventaja absoluta y comparativa; Ganancias del comercio; Aranceles cuotas y barreras; Globalización",class
+31,2,15,Repaso Pre-Final,"Repaso: estructuras de mercado indicadores macro; Política fiscal y monetaria; Resolución de casos",review
+32,2,16,EXAMEN FINAL,"Estructuras de mercado; Indicadores macroeconómicos; Política fiscal y monetaria; Comercio internacional",exam
+33,3,1,Introducción a la Historia Económica,"¿Por qué estudiar historia económica?; Economías primitivas; Surgimiento del comercio; Primeras formas de organización",class
+34,3,2,Feudalismo y Economía Medieval,"Sistema feudal; Gremios y producción artesanal; Comercio medieval y rutas; Transición al mercantilismo",class
+35,3,3,Mercantilismo,"Principios del mercantilismo; Acumulación de metales preciosos; Colonialismo; Críticas al mercantilismo",class
+36,3,4,Revolución Industrial I,"Causas y condiciones previas; Innovaciones tecnológicas; Transformación del trabajo; Urbanización",class
+37,3,5,Revolución Industrial II,"Segunda revolución industrial; Empresa moderna; Impacto en comercio internacional; Movimientos obreros",class
+38,3,6,Pensamiento Clásico,"Adam Smith: mano invisible; David Ricardo: ventaja comparativa; Malthus: población; Mill: utilitarismo",class
+39,3,7,Pensamiento Neoclásico y Marxismo,"Revolución marginalista; Equilibrio general y parcial; Marx: plusvalía lucha de clases; Capitalismo vs socialismo",class
+40,3,8,EXAMEN PARCIAL,"Feudalismo mercantilismo capitalismo; Revolución Industrial; Pensamiento clásico y neoclásico",exam
+41,3,9,La Gran Depresión y Keynes,"Crack de 1929; Efectos de la Gran Depresión; Keynes: demanda agregada multiplicador; New Deal",class
+42,3,10,Estado de Bienestar y Posguerra,"Bretton Woods; Estado de bienestar europeo; Los 30 gloriosos; FMI Banco Mundial GATT",class
+43,3,11,Neoliberalismo,"Estanflación de los 70s; Friedman y monetarismo; Reagan y Thatcher; Consenso de Washington",class
+44,3,12,Globalización,"Definición y dimensiones; Cadenas globales de valor; Integración financiera; Ganadores y perdedores",class
+45,3,13,Economía Digital,"Revolución digital y plataformas; Fintech criptomonedas blockchain; Economía del conocimiento; IA y automatización",class
+46,3,14,Sistemas Contemporáneos,"Capitalismo de mercado vs de Estado; Economías mixtas; China: socialismo de mercado; Futuro del sistema global",class
+47,3,15,Repaso Pre-Final,"Repaso: Keynesianismo neoliberalismo globalización; Análisis comparativo; Ensayos tipo examen",review
+48,3,16,EXAMEN FINAL,"Keynesianismo y Estado de bienestar; Globalización y economía digital; Sistemas contemporáneos",exam
+49,4,1,Entorno de Desarrollo y Jupyter,"Instalación de Python y Anaconda; Jupyter Notebooks; Primer programa; Flujo de trabajo",class
+50,4,2,Variables y Tipos de Datos,"Variables: asignación y convenciones; Tipos: int float str bool; Operadores aritméticos y comparación; Casting",class
+51,4,3,Operadores y Entrada de Datos,"Operadores lógicos; Operadores de asignación compuesta; input() y f-strings; Calculadora de interés simple",class
+52,4,4,Condicionales,"if elif else; Condicionales anidados; Operador ternario; Clasificador de nivel de ingreso",class
+53,4,5,Bucles,"Bucle for y range(); Bucle while; break continue pass; Simulación de ahorro con interés compuesto",class
+54,4,6,Funciones I,"Definición de funciones (def); Parámetros y argumentos; return; Función de costo marginal",class
+55,4,7,Funciones II y Modularidad,"Funciones lambda; Scope: variables locales y globales; Módulos e importaciones; Módulo de funciones económicas",class
+56,4,8,EXAMEN PARCIAL (Práctico),"Variables tipos operadores; Condicionales y bucles; Funciones y modularidad",exam
+57,4,9,Listas y Tuplas,"Listas: creación indexación slicing; Métodos de listas; Tuplas: inmutabilidad; List comprehensions",class
+58,4,10,Diccionarios y Sets,"Diccionarios: claves valores métodos; Iteración; Sets: operaciones de conjuntos; Base de datos de indicadores",class
+59,4,11,Introducción a NumPy,"Arrays vs listas; Operaciones vectorizadas; Indexación y slicing; Cálculos estadísticos con datos económicos",class
+60,4,12,Introducción a Pandas,"Series y DataFrames; read_csv; Selección filtrado ordenamiento; Análisis exploratorio del PIB",class
+61,4,13,Lectura y Escritura de Archivos,"CSV con Pandas; Manejo de JSON; Encoding y limpieza; Pipeline de carga de datos económicos",class
+62,4,14,Proyecto: Simulación I,"Diseño del modelo; Funciones de oferta y demanda; Cálculo de equilibrio; Visualización con matplotlib",project
+63,4,15,Proyecto: Simulación II,"Simulación de shocks; Análisis de sensibilidad; Documentación del código; Presentación",project
+64,4,16,Entrega de Proyecto Final,"Proyecto completo: Simulación oferta-demanda; Código funcional documentado; Uso de NumPy Pandas matplotlib",exam
+65,5,1,Introducción a Excel,"Interfaz de Excel; Tipos de datos en celdas; Fórmulas básicas; Referencias absolutas y relativas",class
+66,5,2,Fórmulas Avanzadas I,"SI SI.CONJUNTO Y O; BUSCARV y BUSCARH; SI.ERROR; Tabla de amortización",class
+67,5,3,Fórmulas Avanzadas II,"INDEX-MATCH; SUMAPRODUCTO; Funciones de texto; Análisis de ventas por región",class
+68,5,4,Tablas Dinámicas I,"Creación de tablas dinámicas; Campos de fila columna valor filtro; Agrupación; Resumen de datos macro",class
+69,5,5,Tablas Dinámicas II y Gráficos,"Campos calculados; Segmentación (slicers); Gráficos dinámicos; Dashboard básico en Excel",class
+70,5,6,Gráficos Avanzados,"Tipos de gráficos; Formato y personalización; Sparklines; Visualización de series de tiempo",class
+71,5,7,Macros y VBA Básico,"Grabadora de macros; Editor de VBA; Variables MsgBox InputBox; Macro para formatear reportes",class
+72,5,8,EXAMEN PARCIAL (Práctico),"Fórmulas avanzadas; Tablas dinámicas y gráficos; Macros y VBA básico",exam
+73,5,9,Introducción a Power BI,"Interfaz de Power BI Desktop; Importación de datos; Power Query; Modelo de datos",class
+74,5,10,Power BI: Visualizaciones,"Tablas tarjetas gráficos; Filtros e interacciones; Formato condicional; Reporte de indicadores",class
+75,5,11,Power BI: DAX Básico,"Medidas vs columnas calculadas; SUM AVERAGE CALCULATE; Contexto de fila y filtro; KPIs financieros",class
+76,5,12,Conexión a Fuentes de Datos,"Conexión a bases de datos y APIs; Actualización y programación; Power Query avanzado; Datos del Banco Mundial",class
+77,5,13,Storytelling con Datos,"Principios de storytelling; Diseño de dashboards; Colores tipografía jerarquía; Rediseño de reporte",class
+78,5,14,Proyecto Dashboard I,"Definición del proyecto; Selección de fuentes; Diseño del modelo; Visualizaciones principales",project
+79,5,15,Proyecto Dashboard II,"Refinamiento; Interactividad y navegación; Publicación; Presentación",project
+80,5,16,EXAMEN FINAL (Práctico),"Power BI: visualizaciones DAX conexión; Storytelling y dashboards; Entrega proyecto",exam
+81,6,1,Repaso de Integración,"Integral indefinida: repaso; Integral definida y área; Excedente del consumidor y productor; Ejercicios",class
+82,6,2,Técnicas de Integración Avanzadas,"Integración por partes; Sustitución trigonométrica; Integrales impropias; Valor presente de flujos continuos",class
+83,6,3,Funciones de Varias Variables I,"Funciones de dos o más variables; Dominio rango superficies; Curvas de nivel; Función Cobb-Douglas",class
+84,6,4,Derivadas Parciales y Gradiente,"Derivadas parciales primer y segundo orden; Gradiente; Diferencial total; Productividad marginal",class
+85,6,5,Optimización sin Restricciones,"CPO; CSO (Hessiano); Máximos y mínimos multivariables; Maximización de beneficios",class
+86,6,6,Optimización con Restricciones (Lagrange),"Multiplicadores de Lagrange; Interpretación económica; Una restricción; Maximización de utilidad",class
+87,6,7,Repaso Pre-Parcial,"Repaso: integración funciones multivariables derivadas parciales; Optimización; Problemas tipo examen",review
+88,6,8,EXAMEN PARCIAL,"Cálculo integral; Funciones de varias variables; Derivadas parciales; Optimización Lagrange",exam
+89,6,9,Vectores y Espacios Vectoriales,"Vectores en Rn; Producto punto y cruz; Independencia lineal; Portafolios como vectores",class
+90,6,10,Matrices I,"Definición y tipos; Operaciones: suma producto transpuesta; Inversa; Modelo de Leontief",class
+91,6,11,Matrices II y Determinantes,"Determinantes; Regla de Cramer; Rango; Modelos económicos lineales",class
+92,6,12,Sistemas de Ecuaciones Lineales,"Representación matricial; Eliminación gaussiana; Tipos de soluciones; Equilibrio de mercados múltiples",class
+93,6,13,Autovalores y Autovectores,"Definición; Ecuación característica; Diagonalización; Sistemas dinámicos económicos",class
+94,6,14,Álgebra Lineal con Python,"NumPy: operaciones matriciales; np.linalg.solve; np.linalg.eig; Modelo de Leontief en Python",class
+95,6,15,Repaso Pre-Final,"Repaso: vectores matrices sistemas; Autovalores; Problemas tipo examen final",review
+96,6,16,EXAMEN FINAL,"Vectores matrices determinantes; Sistemas lineales; Autovalores y autovectores",exam
+97,7,1,Introducción a la Estadística,"Descriptiva vs inferencial; Tipos de datos; Escalas de medición; Fuentes de datos económicos",class
+98,7,2,Medidas de Tendencia Central,"Media mediana moda; Media ponderada y geométrica; Cuartiles deciles percentiles; Distribución del ingreso",class
+99,7,3,Medidas de Dispersión,"Rango varianza desviación estándar; Coeficiente de variación; Asimetría y curtosis; Volatilidad de activos",class
+100,7,4,Teoría de Probabilidad I,"Experimentos aleatorios; Eventos y operaciones; Axiomas de probabilidad; Probabilidad condicional y Bayes",class
+101,7,5,Teoría de Probabilidad II,"Independencia; Combinatoria; Teorema de probabilidad total; Riesgo y probabilidad en finanzas",class
+102,7,6,Variables Aleatorias Discretas,"Variable aleatoria; Función de probabilidad y FDA; Distribución Binomial; Distribución de Poisson",class
+103,7,7,Repaso Pre-Parcial,"Repaso: descriptiva probabilidad variables discretas; Problemas tipo examen; Datos económicos",review
+104,7,8,EXAMEN PARCIAL,"Estadística descriptiva; Teoría de probabilidad; Variables aleatorias discretas",exam
+105,7,9,Variables Aleatorias Continuas,"Función de densidad; Distribución Uniforme y Exponencial; Cálculo con integrales; Tiempos de espera",class
+106,7,10,Distribución Normal,"Propiedades y curva de campana; Estandarización Z-score; Tabla Z; Retornos financieros",class
+107,7,11,Esperanza Varianza y Covarianza,"Esperanza: propiedades; Varianza y desviación estándar; Covarianza y correlación; Rendimiento y riesgo de portafolio",class
+108,7,12,Teorema del Límite Central,"Distribución de la media muestral; TLC; Aproximación normal; Estimación de promedios poblacionales",class
+109,7,13,Introducción al Muestreo,"Población vs muestra; Tipos de muestreo; Error muestral y tamaño; Diseño de encuestas económicas",class
+110,7,14,Laboratorio: Estadística con Python,"pandas describe corr; Histogramas boxplots matplotlib; Simulación con NumPy; Análisis de datos BCRP",class
+111,7,15,Repaso Pre-Final,"Repaso: continuas Normal TLC; Esperanza varianza covarianza; Muestreo y problemas tipo examen",review
+112,7,16,EXAMEN FINAL,"Variables continuas y Normal; Esperanza varianza covarianza; TLC y muestreo",exam
+113,8,1,Preferencias y Utilidad I,"Axiomas de preferencias; Curvas de indiferencia; TMS; Tipos de preferencias",class
+114,8,2,Preferencias y Utilidad II,"Función de utilidad ordinal vs cardinal; Utilidad marginal decreciente; Cobb-Douglas CES; Representación matemática",class
+115,8,3,Restricción Presupuestaria,"Conjunto presupuestario y recta; Cambios en precios e ingreso; Impuestos y subsidios; Ejercicios",class
+116,8,4,Elección Óptima del Consumidor,"Maximización de utilidad; Condición de tangencia; Solución con Lagrange; Canasta óptima",class
+117,8,5,Demanda Individual y de Mercado,"Derivación de curva de demanda; Efecto ingreso y sustitución (Slutsky); Bienes normales inferiores Giffen; Demanda de mercado",class
+118,8,6,Excedente y Bienestar,"Excedente del consumidor; Variación compensatoria y equivalente; Impacto de impuestos; Estática comparativa",class
+119,8,7,Repaso Pre-Parcial,"Repaso: preferencias utilidad restricción elección; Demanda y bienestar; Problemas tipo examen",review
+120,8,8,EXAMEN PARCIAL,"Teoría del consumidor; Restricción presupuestaria; Elección óptima; Demanda",exam
+121,8,9,Teoría de la Producción,"Función de producción; Producto total medio marginal; Isocuantas y TMST; Rendimientos a escala",class
+122,8,10,Costos de Producción I,"Costos corto plazo: fijo variable total; Costo medio y marginal; Relación producción-costos; Curvas de costos",class
+123,8,11,Costos de Producción II,"Costos largo plazo: isocostos; Economías y deseconomías de escala; Senda de expansión; Estructura de costos",class
+124,8,12,Competencia Perfecta I,"Supuestos; Maximización: P=CMg; Curva de oferta; Beneficio económico vs contable",class
+125,8,13,Competencia Perfecta II y Eficiencia,"Equilibrio de largo plazo; Entrada y salida; Eficiencia de Pareto; Primer teorema del bienestar",class
+126,8,14,Simulación de Mercado en Python,"Funciones de oferta y demanda; Equilibrio y excedentes; Impacto de impuestos y subsidios; Visualización",project
+127,8,15,Repaso Pre-Final,"Repaso: producción costos competencia; Eficiencia y bienestar; Problemas tipo examen final",review
+128,8,16,EXAMEN FINAL,"Producción y costos; Competencia perfecta; Eficiencia y bienestar",exam
+129,9,1,Introducción a la Contabilidad,"¿Qué es la contabilidad?; Usuarios de información contable; Principios contables; NIIF/IFRS",class
+130,9,2,Ecuación Contable,"Activo = Pasivo + Patrimonio; Clasificación de cuentas; Efecto de transacciones; Registro básico",class
+131,9,3,Partida Doble I,"Sistema de partida doble; Plan de cuentas; Libro diario; Asientos contables",class
+132,9,4,Partida Doble II,"Libro mayor y balance de comprobación; Ajustes contables; Cierre de cuentas; Ciclo contable completo",class
+133,9,5,Balance General,"Estructura del Balance; Activos corrientes y no corrientes; Pasivos; Patrimonio neto",class
+134,9,6,Estado de Resultados,"Estructura; Ingresos costos gastos; Utilidad bruta operativa neta; Análisis de empresa real",class
+135,9,7,Repaso Pre-Parcial,"Repaso: ecuación contable partida doble estados financieros; Casos prácticos tipo examen",review
+136,9,8,EXAMEN PARCIAL,"Principios contables NIIF; Ecuación contable partida doble; Balance y Estado de Resultados",exam
+137,9,9,Estado de Flujo de Caja,"Estructura del Flujo de Caja; Actividades operativas inversión financiamiento; Método directo e indirecto; Flujo vs utilidad",class
+138,9,10,Ratios de Liquidez y Solvencia,"Ratio corriente y prueba ácida; Endeudamiento y cobertura; Capital de trabajo; Análisis de liquidez",class
+139,9,11,Ratios de Rentabilidad,"ROA ROE margen neto; Rotación de activos e inventarios; Ciclo de conversión; Comparación entre empresas",class
+140,9,12,Análisis DuPont,"Descomposición del ROE; Margen × Rotación × Apalancamiento; Diagnóstico financiero; Caso empresa listada",class
+141,9,13,Reportes Financieros Reales,"Lectura de reportes anuales 10-K; Notas a estados financieros; Análisis horizontal y vertical; Caso real",class
+142,9,14,Taller: Análisis con Excel,"Modelo de análisis financiero; Automatización de ratios; Dashboard de indicadores; Presentación",class
+143,9,15,Repaso Pre-Final,"Repaso: flujo de caja ratios DuPont; Interpretación de reportes; Casos tipo examen final",review
+144,9,16,EXAMEN FINAL,"Flujo de Caja; Ratios financieros; Interpretación de reportes reales",exam
+145,10,1,Pandas Avanzado I: Merge y Join,"Repaso DataFrames; merge(): inner outer left right; join() y concat(); Combinar datasets económicos",class
+146,10,2,Pandas Avanzado II: GroupBy y Pivot,"groupby(): agregaciones; pivot_table() y melt(); Reshaping; Análisis de PIB por país",class
+147,10,3,Limpieza y Transformación,"Valores nulos fillna dropna; Outliers; Transformación de tipos; Limpieza de dataset financiero",class
+148,10,4,Web Scraping I,"HTTP requests; BeautifulSoup; Extracción de tablas; Scraping de datos de la BVL",class
+149,10,5,Web Scraping II,"Scraping de múltiples páginas; Headers y delays; Almacenamiento; Scraping de noticias económicas",class
+150,10,6,APIs REST I,"¿Qué es una API REST?; requests; JSON parsing; Yahoo Finance API",class
+151,10,7,APIs REST II (BCRP FRED),"API del BCRP; API de FRED; Autenticación API keys; Pipeline de datos macro",class
+152,10,8,EXAMEN PARCIAL (Práctico),"Pandas avanzado; Limpieza de datos; Web scraping y APIs",exam
+153,10,9,Automatización de Reportes,"Reportes en PDF/HTML; Envío de emails; Scheduling; Reporte diario de mercado",class
+154,10,10,Visualización Avanzada I (Seaborn),"Heatmaps pairplots violinplots; Estilos y paletas; Correlaciones; Indicadores financieros",class
+155,10,11,Visualización Avanzada II (Plotly),"Plotly interactivo; Candlestick charts; Dashboards Plotly Express; Precios de acciones",class
+156,10,12,Introducción a Git,"Control de versiones; init add commit push pull; Branches y merge; GitHub",class
+157,10,13,Proyecto Dashboard I,"Diseño del proyecto; Selección de fuentes API; Estructura del código; Prototipo",project
+158,10,14,Proyecto Dashboard II,"Integración datos en tiempo real; Visualizaciones Plotly; Automatización; Testing",project
+159,10,15,Proyecto Dashboard III,"Refinamiento y documentación; README; Presentación; Code review",project
+160,10,16,Entrega Final de Proyecto,"Dashboard financiero completo; Código en GitHub; Presentación y demo",exam
+161,11,1,Repaso: Optimización sin Restricciones,"CPO; CSO Hessiano; Máximos y mínimos multivariables; Maximización de beneficios",class
+162,11,2,Lagrange: Profundización,"Múltiples restricciones; Interpretación económica; Condiciones de suficiencia; Utilidad con restricción",class
+163,11,3,Condiciones de Kuhn-Tucker,"Restricciones de desigualdad; Condiciones KKT; Complementariedad; No negatividad en producción",class
+164,11,4,Programación Lineal I,"Formulación de problemas; Región factible; Solución gráfica; Asignación óptima de recursos",class
+165,11,5,Programación Lineal II: Simplex,"Algoritmo simplex; Variables de holgura; Dualidad; Resolución con scipy",class
+166,11,6,Programación Lineal III: Sensibilidad,"Precios sombra; Análisis de sensibilidad; Problema dual; Planificación de producción",class
+167,11,7,Repaso Pre-Parcial,"Repaso: Lagrange KKT programación lineal; Problemas tipo examen; Ejercicios integradores",review
+168,11,8,EXAMEN PARCIAL,"Optimización con y sin restricciones; Programación lineal y simplex",exam
+169,11,9,Programación Dinámica I,"Decisiones secuenciales; Ecuación de Bellman; PD determinística; Inversión óptima",class
+170,11,10,Programación Dinámica II,"PD estocástica intro; Horizonte finito e infinito; Resolución numérica Python; Consumo intertemporal",class
+171,11,11,Equilibrio General I,"Equilibrio walrasiano; Caja de Edgeworth; Curva de contrato; Teoremas del bienestar",class
+172,11,12,Equilibrio General II,"Equilibrio con producción; Existencia y unicidad; Estática comparativa; Modelos CGE intro",class
+173,11,13,Proyecto: Modelo Económico I,"Diseño del modelo de equilibrio parcial; Formulación matemática; Implementación scipy; Calibración",project
+174,11,14,Proyecto: Modelo Económico II,"Simulación y sensibilidad; Visualización; Documentación; Preparación presentación",project
+175,11,15,Repaso Pre-Final,"Repaso: PD equilibrio general; Problemas tipo examen final; Ejercicios integradores",review
+176,11,16,EXAMEN FINAL,"Programación dinámica; Equilibrio general; Aplicaciones computacionales",exam
+177,12,1,Estimación Puntual,"Estimadores y propiedades; Método de momentos; Máxima verosimilitud intro; Parámetros económicos",class
+178,12,2,Estimación por Intervalos,"IC para la media; IC para proporciones; IC para diferencia de medias; Nivel de confianza",class
+179,12,3,Pruebas de Hipótesis I (z y t),"Hipótesis nula y alternativa; Error tipo I y II p-valor; Prueba z; Prueba t de Student",class
+180,12,4,Pruebas de Hipótesis II (Chi-cuadrado F),"Chi-cuadrado de independencia; Bondad de ajuste; Prueba F; Test de independencia económica",class
+181,12,5,ANOVA,"ANOVA de un factor; Tabla ANOVA y estadístico F; Comparaciones múltiples Tukey; Rendimientos entre sectores",class
+182,12,6,Correlación y Regresión Simple I,"Correlación de Pearson; Modelo de regresión lineal simple; Estimación MCO; Interpretación de coeficientes",class
+183,12,7,Repaso Pre-Parcial,"Repaso: estimación pruebas ANOVA; Problemas tipo examen; Laboratorio integrador",review
+184,12,8,EXAMEN PARCIAL,"Estimación puntual y por intervalos; Pruebas de hipótesis; ANOVA",exam
+185,12,9,Regresión Simple II,"R² y bondad de ajuste; Inferencia sobre coeficientes; Predicción; Laboratorio statsmodels",class
+186,12,10,Regresión Múltiple I,"Modelo múltiple; Estimación MCO; Coeficientes parciales; R² ajustado",class
+187,12,11,Regresión Múltiple II,"Variables dummy; Test F global; Multicolinealidad VIF; Laboratorio datos económicos",class
+188,12,12,Diagnóstico de Modelos,"Supuestos del modelo; Heterocedasticidad Breusch-Pagan; Autocorrelación Durbin-Watson; Normalidad residuos",class
+189,12,13,Estadística No Paramétrica,"Wilcoxon Mann-Whitney; Kruskal-Wallis; Correlación de Spearman; Cuándo usar no paramétricos",class
+190,12,14,Proyecto: Análisis Estadístico,"Proyecto con datos reales; Inferencia y regresión; Diagnóstico y validación; Presentación",project
+191,12,15,Repaso Pre-Final,"Repaso: regresión diagnóstico no paramétrica; Problemas tipo examen final",review
+192,12,16,EXAMEN FINAL,"Regresión simple y múltiple; Diagnóstico; Estadística no paramétrica",exam
+193,13,1,Monopolio I,"Poder de mercado; Maximización del monopolista; Precio cantidad pérdida; Discriminación primer grado",class
+194,13,2,Monopolio II,"Discriminación segundo y tercer grado; Monopolio natural; Índice de Lerner; Regulación de servicios",class
+195,13,3,Oligopolio I: Cournot y Bertrand,"Cournot: competencia en cantidades; Función de reacción Nash; Bertrand: precios; Paradoja de Bertrand",class
+196,13,4,Oligopolio II: Stackelberg y Colusión,"Stackelberg: líder y seguidor; Colusión y cárteles; Estabilidad; OPEP y oligopolios",class
+197,13,5,Competencia Monopolística,"Diferenciación de producto; Equilibrio corto y largo plazo; Modelo de Chamberlin; Publicidad y branding",class
+198,13,6,Externalidades,"Positivas y negativas; Ineficiencia del mercado; Impuestos pigouvianos subsidios; Teorema de Coase",class
+199,13,7,Bienes Públicos y Repaso,"No rivalidad no exclusión; Free rider; Provisión óptima; Repaso pre-parcial",review
+200,13,8,EXAMEN PARCIAL,"Monopolio; Oligopolio; Competencia monopolística; Externalidades y bienes públicos",exam
+201,13,9,Información Asimétrica I: Selección Adversa,"Concepto; Mercado de los limones Akerlof; Señalización Spence; Seguros y crédito",class
+202,13,10,Información Asimétrica II: Riesgo Moral,"Agente-principal; Contratos e incentivos; Screening; Compensación ejecutiva seguros",class
+203,13,11,Economía del Bienestar,"Funciones de bienestar social; Pareto Kaldor-Hicks; Segundo teorema; Eficiencia vs equidad",class
+204,13,12,Diseño de Mecanismos,"Introducción; Subastas tipos y estrategias; Teorema de revelación; Subastas de espectro licitaciones",class
+205,13,13,Ensayo Analítico,"Desarrollo del ensayo; Caso real de falla de mercado; Propuesta de política; Revisión entre pares",project
+206,13,14,Simulación de Mercados con Python,"Simulación oligopolio Cournot; Análisis de equilibrio; Funciones de reacción; Comparación de estructuras",project
+207,13,15,Repaso Pre-Final,"Repaso: información asimétrica bienestar mecanismos; Problemas tipo examen final",review
+208,13,16,EXAMEN FINAL,"Información asimétrica; Economía del bienestar; Diseño de mecanismos",exam
+209,14,1,Contabilidad Nacional y PIB,"Cuentas nacionales; PIB por gasto ingreso producción; PIB real vs nominal; Deflactor",class
+210,14,2,Modelo Keynesiano Simple,"Función consumo y ahorro; Multiplicador keynesiano; Equilibrio ingreso-gasto; Paradoja del ahorro",class
+211,14,3,Modelo Keynesiano con Gobierno,"Gasto público e impuestos; Multiplicador fiscal; Presupuesto equilibrado; Estabilizadores automáticos",class
+212,14,4,Mercado de Dinero I,"Oferta y demanda de dinero; Motivos de demanda de dinero; Equilibrio monetario; Tasa de interés",class
+213,14,5,Mercado de Dinero II,"Creación de dinero bancario; Multiplicador monetario; Instrumentos del banco central; Política monetaria",class
+214,14,6,Modelo IS-LM I,"Curva IS: derivación; Curva LM: derivación; Equilibrio simultáneo; Estática comparativa",class
+215,14,7,Modelo IS-LM II y Repaso,"Política fiscal y monetaria en IS-LM; Trampa de liquidez; Casos extremos; Repaso pre-parcial",review
+216,14,8,EXAMEN PARCIAL,"Contabilidad nacional; Modelo keynesiano; Mercado de dinero; IS-LM intro",exam
+217,14,9,Inflación y Desempleo,"Curva de Phillips original; Expectativas adaptativas; NAIRU; Trade-off inflación-desempleo",class
+218,14,10,Oferta y Demanda Agregada,"Curva OA corto y largo plazo; Curva DA; Equilibrio OA-DA; Shocks de oferta y demanda",class
+219,14,11,Crecimiento Económico: Solow I,"Función de producción agregada; Acumulación de capital; Estado estacionario; Regla de oro",class
+220,14,12,Crecimiento Económico: Solow II,"Progreso tecnológico; Convergencia; Contabilidad del crecimiento; Datos reales de crecimiento",class
+221,14,13,Política Fiscal y Monetaria,"Coordinación de políticas; Reglas vs discreción; Independencia del banco central; Casos reales",class
+222,14,14,Laboratorio: Macro con Python,"Simulación modelo IS-LM; Modelo de Solow en Python; Datos FRED/BCRP; Visualización",project
+223,14,15,Repaso Pre-Final,"Repaso: Phillips OA-DA Solow política; Problemas tipo examen final",review
+224,14,16,EXAMEN FINAL,"Inflación y desempleo; OA-DA; Crecimiento económico; Política fiscal y monetaria",exam
+225,15,1,Modelo Relacional,"Conceptos: tablas filas columnas; Claves primarias y foráneas; Relaciones 1:1 1:N N:M; Normalización intro",class
+226,15,2,Diseño de Bases de Datos,"Diagrama ER; Normalización 1FN 2FN 3FN; Diseño lógico y físico; Caso: BD de datos económicos",class
+227,15,3,SQL: SELECT y WHERE,"SELECT FROM WHERE; Operadores de comparación y lógicos; ORDER BY LIMIT; Consultas sobre datos financieros",class
+228,15,4,SQL: JOIN,"INNER JOIN LEFT RIGHT FULL; Alias de tablas; Múltiples JOINs; Consultas cruzando tablas económicas",class
+229,15,5,SQL: GROUP BY y Agregación,"GROUP BY HAVING; COUNT SUM AVG MIN MAX; Funciones de ventana intro; Análisis agregado de datos",class
+230,15,6,Subconsultas,"Subconsultas en WHERE FROM SELECT; EXISTS IN; Subconsultas correlacionadas; Consultas complejas",class
+231,15,7,Repaso Pre-Parcial,"Repaso: modelo relacional SELECT JOIN GROUP BY; Problemas tipo examen; Ejercicios prácticos",review
+232,15,8,EXAMEN PARCIAL (Práctico),"Modelo relacional; SELECT WHERE JOIN; GROUP BY y agregación; Subconsultas",exam
+233,15,9,DDL: Creación de Tablas,"CREATE TABLE; Tipos de datos; Constraints: PK FK NOT NULL UNIQUE; ALTER TABLE DROP TABLE",class
+234,15,10,DML: Inserción y Actualización,"INSERT INTO; UPDATE SET WHERE; DELETE FROM; Transacciones COMMIT ROLLBACK",class
+235,15,11,Índices y Optimización,"Índices: creación y tipos; EXPLAIN y plan de ejecución; Optimización de consultas; Buenas prácticas",class
+236,15,12,Python + SQL (SQLAlchemy),"Conexión Python-PostgreSQL; SQLAlchemy: engine session; ORM básico; Consultas desde Python",class
+237,15,13,Proyecto: BD Económica I,"Diseño de BD para datos económicos; Creación de tablas; Carga de datos CSV; Consultas analíticas",project
+238,15,14,Proyecto: BD Económica II,"Consultas avanzadas; Integración Python-SQL; Visualización de resultados; Documentación",project
+239,15,15,Repaso Pre-Final,"Repaso: DDL DML índices Python-SQL; Problemas tipo examen final",review
+240,15,16,EXAMEN FINAL (Práctico),"DDL y DML; Índices y optimización; Python-SQL; Proyecto final",exam
+241,16,1,Modelo de Regresión Lineal Simple: Repaso,"MCO; Supuestos Gauss-Markov; Propiedades de estimadores; Interpretación",class
+242,16,2,Regresión Múltiple: Profundización,"Estimación matricial; Teorema de Frisch-Waugh; Omisión de variables; Sesgo",class
+243,16,3,Inferencia en Regresión,"Test t y F; Intervalos de confianza; Restricciones lineales; Wald test",class
+244,16,4,Variables Dummy y Cualitativas,"Intercepto diferencial; Pendiente diferencial; Interacciones; Cambio estructural Chow",class
+245,16,5,Formas Funcionales,"Log-log log-lin lin-log; Elasticidades; Modelos cuadráticos; Selección de forma funcional",class
+246,16,6,Heterocedasticidad,"Consecuencias; Detección: White Breusch-Pagan; Corrección: errores robustos WLS; GLS",class
+247,16,7,Repaso Pre-Parcial,"Repaso: regresión inferencia dummy formas funcionales; Problemas tipo examen",review
+248,16,8,EXAMEN PARCIAL,"Regresión múltiple; Inferencia; Variables dummy; Formas funcionales; Heterocedasticidad",exam
+249,16,9,Autocorrelación,"Consecuencias; Detección: Durbin-Watson Breusch-Godfrey; Corrección: Newey-West Cochrane-Orcutt",class
+250,16,10,Multicolinealidad,"Consecuencias; Detección: VIF correlación; Soluciones; Ejercicios con datos reales",class
+251,16,11,Endogeneidad y Variables Instrumentales,"Sesgo de simultaneidad; Variables instrumentales; Estimación 2SLS; Test de Hausman",class
+252,16,12,Modelos de Variable Dependiente Limitada,"Probit y Logit; Estimación por máxima verosimilitud; Efectos marginales; Aplicación: probabilidad de default",class
+253,16,13,Proyecto: Regresión con Datos Reales I,"Selección de tema y datos; Especificación del modelo; Estimación y diagnóstico",project
+254,16,14,Proyecto: Regresión con Datos Reales II,"Corrección de problemas; Interpretación de resultados; Redacción de informe; Presentación",project
+255,16,15,Repaso Pre-Final,"Repaso: autocorrelación endogeneidad modelos limitados; Problemas tipo examen final",review
+256,16,16,EXAMEN FINAL,"Autocorrelación; Endogeneidad e IV; Modelos Probit/Logit; Proyecto",exam
+257,17,1,Modelo IS-LM: Repaso y Profundización,"IS-LM en economía cerrada; Multiplicadores; Política fiscal y monetaria; Casos extremos",class
+258,17,2,IS-LM en Economía Abierta,"Balanza de pagos; Tipo de cambio fijo y flexible; Modelo Mundell-Fleming; Movilidad de capital",class
+259,17,3,Oferta Agregada: Fundamentos,"Mercado de trabajo; Salarios rígidos y flexibles; Curva OA de corto y largo plazo; Expectativas",class
+260,17,4,Modelo OA-DA Completo,"Equilibrio OA-DA; Shocks de oferta y demanda; Ajuste dinámico; Estanflación",class
+261,17,5,Expectativas y Política Económica,"Expectativas racionales vs adaptativas; Crítica de Lucas; Inconsistencia temporal; Reglas vs discreción",class
+262,17,6,Inflación y Política Monetaria Avanzada,"Regla de Taylor; Metas de inflación; Quantitative easing; Política monetaria no convencional",class
+263,17,7,Repaso Pre-Parcial,"Repaso: IS-LM abierto OA-DA expectativas; Problemas tipo examen",review
+264,17,8,EXAMEN PARCIAL,"IS-LM abierto; OA-DA; Expectativas; Política monetaria avanzada",exam
+265,17,9,Crecimiento Económico Avanzado,"Modelo de Solow ampliado; Capital humano; Modelo AK; Crecimiento endógeno Romer",class
+266,17,10,Ciclos Económicos,"Hechos estilizados; Modelo RBC intro; Ciclos keynesianos; Indicadores adelantados",class
+267,17,11,Mercados Financieros y Macro,"Hipótesis de mercados eficientes; Burbujas; Canal de crédito; Acelerador financiero",class
+268,17,12,Crisis Financieras,"Anatomía de una crisis; Crisis 2008; Crisis de deuda soberana; Lecciones de política",class
+269,17,13,Macroeconomía de Economías Emergentes,"Sudden stops; Dolarización; Commodity dependence; Caso Perú y Latinoamérica",class
+270,17,14,Laboratorio: Macro Avanzada con Python,"Simulación Mundell-Fleming; Modelo OA-DA dinámico; Análisis de ciclos con datos reales",project
+271,17,15,Repaso Pre-Final,"Repaso: crecimiento ciclos crisis; Problemas tipo examen final",review
+272,17,16,EXAMEN FINAL,"Crecimiento avanzado; Ciclos económicos; Crisis financieras; Macro emergentes",exam
+273,18,1,Valor del Dinero en el Tiempo,"Valor presente y futuro; Anualidades y perpetuidades; Tasas efectivas y nominales; TIR y VAN",class
+274,18,2,Valoración de Bonos,"Precio de un bono; Yield to maturity; Duración y convexidad; Curva de rendimientos",class
+275,18,3,Valoración de Acciones,"Modelo de dividendos descontados; Modelo de Gordon; Múltiplos: P/E P/B; Valoración relativa",class
+276,18,4,Riesgo y Rendimiento,"Rendimiento esperado y varianza; Diversificación; Frontera eficiente Markowitz; Ratio de Sharpe",class
+277,18,5,CAPM,"Capital Asset Pricing Model; Beta y riesgo sistemático; Security Market Line; Aplicaciones",class
+278,18,6,Estructura de Capital,"Modigliani-Miller; Trade-off theory; Pecking order; Costo de capital WACC",class
+279,18,7,Repaso Pre-Parcial,"Repaso: valoración riesgo CAPM estructura de capital; Problemas tipo examen",review
+280,18,8,EXAMEN PARCIAL,"Valor del dinero; Valoración bonos y acciones; CAPM; Estructura de capital",exam
+281,18,9,Decisiones de Inversión,"Criterios: VAN TIR payback; Flujos de caja incrementales; Proyectos mutuamente excluyentes; Análisis de sensibilidad",class
+282,18,10,Capital de Trabajo,"Gestión de inventarios; Cuentas por cobrar; Ciclo de conversión de efectivo; Financiamiento de corto plazo",class
+283,18,11,Fusiones y Adquisiciones,"Tipos de M&A; Valoración de empresas; Sinergias; Due diligence",class
+284,18,12,Modelamiento Financiero en Excel/Python,"Modelo de 3 estados; Proyección de flujos; Valoración DCF; Escenarios",project
+285,18,13,Proyecto: Valoración de Empresa I,"Selección de empresa; Análisis de estados financieros; Proyección de flujos; Modelo DCF",project
+286,18,14,Proyecto: Valoración de Empresa II,"Análisis de sensibilidad; Comparables; Informe de valoración; Presentación",project
+287,18,15,Repaso Pre-Final,"Repaso: inversión capital de trabajo M&A modelamiento; Problemas tipo examen final",review
+288,18,16,EXAMEN FINAL,"Decisiones de inversión; M&A; Modelamiento financiero; Proyecto valoración",exam
+289,19,1,Introducción a Teoría de Juegos,"Juegos estratégicos; Jugadores estrategias pagos; Representación normal y extensiva; Ejemplos económicos",class
+290,19,2,Equilibrio de Nash,"Definición; Existencia; Equilibrios múltiples; Dilema del prisionero",class
+291,19,3,Juegos Secuenciales,"Forma extensiva; Inducción hacia atrás; Equilibrio perfecto en subjuegos; Compromiso y credibilidad",class
+292,19,4,Estrategias Mixtas,"Aleatorización; Cálculo de equilibrio mixto; Interpretación; Aplicaciones en competencia",class
+293,19,5,Juegos Repetidos,"Juegos finitamente repetidos; Juegos infinitamente repetidos; Folk theorem; Cooperación y castigo",class
+294,19,6,Juegos de Información Incompleta,"Tipos de jugadores; Equilibrio bayesiano de Nash; Señalización; Aplicación: subastas",class
+295,19,7,Repaso Pre-Parcial,"Repaso: Nash secuenciales mixtas repetidos; Problemas tipo examen",review
+296,19,8,EXAMEN PARCIAL,"Equilibrio de Nash; Juegos secuenciales; Estrategias mixtas; Juegos repetidos",exam
+297,19,9,Juegos Cooperativos,"Coaliciones; Núcleo; Valor de Shapley; Aplicación: negociación y reparto",class
+298,19,10,Aplicaciones: Oligopolio,"Cournot Bertrand Stackelberg como juegos; Colusión tácita; Entrada y disuasión; Regulación",class
+299,19,11,Aplicaciones: Subastas,"Tipos de subastas; Equivalencia de ingresos; Diseño óptimo; Winner's curse",class
+300,19,12,Aplicaciones: Negociación,"Modelo de Rubinstein; Ultimátum; Poder de negociación; Aplicaciones laborales",class
+301,19,13,Simulaciones de Juegos en Python,"Implementación de juegos; Simulación de estrategias; Convergencia a equilibrio; Visualización",project
+302,19,14,Behavioral Game Theory,"Racionalidad limitada; Fairness y reciprocidad; Experimentos; Anomalías",class
+303,19,15,Repaso Pre-Final,"Repaso: cooperativos aplicaciones behavioral; Problemas tipo examen final",review
+304,19,16,EXAMEN FINAL,"Juegos cooperativos; Aplicaciones económicas; Behavioral game theory",exam
+305,20,1,Fundamentos de Ingeniería de Datos,"¿Qué es ingeniería de datos?; Data pipeline; Batch vs streaming; Arquitectura de datos moderna",class
+306,20,2,ETL: Extract,"Fuentes de datos: APIs DBs archivos; Conectores; Extracción incremental vs full; Manejo de errores",class
+307,20,3,ETL: Transform,"Limpieza y validación; Transformaciones; Data quality; Schema evolution",class
+308,20,4,ETL: Load,"Data warehouse vs data lake; Estrategias de carga; Particionamiento; Formatos: Parquet CSV JSON",class
+309,20,5,Python para ETL,"pandas para ETL; Luigi/Prefect intro; Logging y monitoreo; Pipeline de datos financieros",class
+310,20,6,Data Warehouse,"Modelo dimensional; Star schema; Slowly changing dimensions; Diseño de DW financiero",class
+311,20,7,Repaso Pre-Parcial,"Repaso: ETL DW pipelines; Problemas tipo examen; Ejercicios prácticos",review
+312,20,8,EXAMEN PARCIAL (Práctico),"ETL completo; Transformaciones; Data warehouse; Python para ETL",exam
+313,20,9,Orquestación de Pipelines,"Apache Airflow intro; DAGs; Scheduling; Monitoreo y alertas",class
+314,20,10,Bases de Datos NoSQL,"MongoDB intro; Documentos vs tablas; Cuándo usar NoSQL; Datos semi-estructurados",class
+315,20,11,Streaming de Datos,"Kafka intro; Eventos en tiempo real; Procesamiento de streams; Datos de mercado en tiempo real",class
+316,20,12,Cloud Data Engineering,"AWS S3 Redshift Glue intro; Arquitectura serverless; Costos; Caso de uso financiero",class
+317,20,13,Proyecto: Pipeline I,"Diseño del pipeline end-to-end; Extracción de múltiples fuentes; Transformación y validación",project
+318,20,14,Proyecto: Pipeline II,"Carga en DW; Orquestación; Dashboard de monitoreo; Documentación",project
+319,20,15,Proyecto: Pipeline III,"Testing y calidad; Optimización; Presentación; Code review",project
+320,20,16,Entrega de Proyecto,"Pipeline completo funcional; Documentación; Presentación y demo",exam
+321,21,1,Series de Tiempo: Conceptos,"Procesos estocásticos; Estacionariedad; Función de autocorrelación ACF PACF; Ruido blanco",class
+322,21,2,Modelos AR,"Proceso AR(1) AR(p); Estimación; Condiciones de estacionariedad; Pronóstico",class
+323,21,3,Modelos MA y ARMA,"Proceso MA(1) MA(q); ARMA(p q); Invertibilidad; Identificación Box-Jenkins",class
+324,21,4,Modelos ARIMA,"Integración y diferenciación; ARIMA(p d q); Test de raíz unitaria ADF; Selección de modelo AIC BIC",class
+325,21,5,ARIMA Estacional (SARIMA),"Componente estacional; SARIMA; Descomposición; Pronóstico de series económicas estacionales",class
+326,21,6,Modelos de Volatilidad: ARCH,"Heterocedasticidad condicional; ARCH(q); Estimación; Clusters de volatilidad",class
+327,21,7,Repaso Pre-Parcial,"Repaso: AR MA ARIMA SARIMA ARCH; Problemas tipo examen; Laboratorio",review
+328,21,8,EXAMEN PARCIAL,"Series de tiempo; ARIMA; SARIMA; ARCH",exam
+329,21,9,Modelos GARCH,"GARCH(p q); Extensiones: EGARCH TGARCH; Estimación en Python; Volatilidad de activos financieros",class
+330,21,10,Cointegración,"Regresión espuria; Cointegración de Engle-Granger; Test de Johansen; Relaciones de largo plazo",class
+331,21,11,Modelos VAR,"Vector Autoregression; Estimación; Funciones impulso-respuesta; Descomposición de varianza",class
+332,21,12,Modelos de Corrección de Error,"VECM; Dinámica de corto y largo plazo; Causalidad de Granger; Aplicación macro",class
+333,21,13,Proyecto: Series Financieras I,"Selección de serie; Análisis exploratorio; Modelamiento ARIMA/GARCH; Pronóstico",project
+334,21,14,Proyecto: Series Financieras II,"Evaluación de pronósticos; Backtesting; Informe; Presentación",project
+335,21,15,Repaso Pre-Final,"Repaso: GARCH cointegración VAR VECM; Problemas tipo examen final",review
+336,21,16,EXAMEN FINAL,"GARCH; Cointegración; VAR y VECM; Proyecto",exam
+337,22,1,Mercados de Derivados,"Tipos de derivados; Mercados organizados vs OTC; Participantes; Regulación",class
+338,22,2,Forwards y Futuros,"Contratos forward; Futuros: márgenes y liquidación; Pricing: cost of carry; Cobertura",class
+339,22,3,Opciones: Conceptos,"Call y put; Payoff y profit; Paridad put-call; Estrategias básicas",class
+340,22,4,Modelo Binomial,"Modelo de un período; Modelo multi-período; Valoración neutral al riesgo; Opciones americanas",class
+341,22,5,Modelo Black-Scholes,"Supuestos; Fórmula BS; Greeks: delta gamma theta vega; Sensibilidad",class
+342,22,6,Volatilidad Implícita,"Superficie de volatilidad; Smile y skew; Calibración; VIX",class
+343,22,7,Repaso Pre-Parcial,"Repaso: forwards futuros opciones binomial BS; Problemas tipo examen",review
+344,22,8,EXAMEN PARCIAL,"Forwards y futuros; Opciones; Binomial; Black-Scholes",exam
+345,22,9,Swaps,"Interest rate swaps; Currency swaps; Valoración; Aplicaciones de cobertura",class
+346,22,10,Opciones Exóticas,"Barrier options; Asian options; Lookback; Simulación Monte Carlo para pricing",class
+347,22,11,Derivados de Crédito,"Credit Default Swaps; CDOs; Riesgo de contraparte; Crisis 2008 y derivados",class
+348,22,12,Pricing con Python,"Implementación BS en Python; Binomial tree; Monte Carlo; Greeks numéricos",project
+349,22,13,Proyecto: Pricing Engine I,"Diseño del motor de pricing; Implementación de modelos; Calibración con datos de mercado",project
+350,22,14,Proyecto: Pricing Engine II,"Testing; Análisis de sensibilidad; Documentación; Presentación",project
+351,22,15,Repaso Pre-Final,"Repaso: swaps exóticas crédito pricing; Problemas tipo examen final",review
+352,22,16,EXAMEN FINAL,"Swaps; Opciones exóticas; Derivados de crédito; Proyecto pricing",exam
+353,23,1,Introducción a Gestión de Riesgos,"Tipos de riesgo: mercado crédito operacional; Marco regulatorio Basilea; Enterprise Risk Management",class
+354,23,2,Riesgo de Mercado I: VaR,"Value at Risk: definición; VaR paramétrico; VaR histórico; Backtesting",class
+355,23,3,Riesgo de Mercado II: CVaR y ES,"Expected Shortfall; Coherencia de medidas de riesgo; Comparación VaR vs CVaR; Stress testing",class
+356,23,4,Simulación Monte Carlo,"Generación de números aleatorios; Simulación de precios GBM; VaR por Monte Carlo; Convergencia",class
+357,23,5,Riesgo de Portafolio,"Correlación y diversificación; VaR de portafolio; Contribución marginal al riesgo; Risk budgeting",class
+358,23,6,Riesgo de Crédito I,"Probabilidad de default; Loss Given Default; Exposure at Default; Modelos de scoring",class
+359,23,7,Repaso Pre-Parcial,"Repaso: VaR CVaR Monte Carlo portafolio crédito; Problemas tipo examen",review
+360,23,8,EXAMEN PARCIAL,"VaR y CVaR; Monte Carlo; Riesgo de portafolio; Riesgo de crédito intro",exam
+361,23,9,Riesgo de Crédito II,"Modelos estructurales Merton; Modelos de forma reducida; Credit VaR; Portafolio de crédito",class
+362,23,10,Riesgo Operacional,"Definición y categorías; Métodos de medición; Indicador básico y estándar; Distribución de pérdidas",class
+363,23,11,Regulación: Basilea III,"Requerimientos de capital; Ratios de liquidez LCR NSFR; Leverage ratio; Implementación",class
+364,23,12,Risk Management con Python,"Implementación VaR CVaR; Monte Carlo para portafolios; Dashboard de riesgo; Automatización",project
+365,23,13,Proyecto: Modelo de Riesgo I,"Selección de portafolio; Cálculo de VaR y CVaR; Stress testing; Backtesting",project
+366,23,14,Proyecto: Modelo de Riesgo II,"Análisis de resultados; Reporte de riesgo; Recomendaciones; Presentación",project
+367,23,15,Repaso Pre-Final,"Repaso: crédito operacional Basilea Python; Problemas tipo examen final",review
+368,23,16,EXAMEN FINAL,"Riesgo de crédito avanzado; Operacional; Basilea III; Proyecto",exam
+369,24,1,Introducción a Machine Learning,"Supervisado vs no supervisado; Train-test split; Bias-variance tradeoff; Métricas de evaluación",class
+370,24,2,Regresión: Ridge y Lasso,"Regularización; Ridge L2; Lasso L1; Elastic Net; Selección de variables económicas",class
+371,24,3,Clasificación: Logistic Regression,"Regresión logística; Curva ROC AUC; Matriz de confusión; Predicción de default",class
+372,24,4,Árboles de Decisión,"CART; Criterios de split; Poda; Interpretabilidad; Aplicación económica",class
+373,24,5,Random Forest y Ensemble,"Bagging; Random Forest; Feature importance; Aplicación: predicción de recesión",class
+374,24,6,Gradient Boosting,"XGBoost LightGBM; Hiperparámetros; Cross-validation; Aplicación financiera",class
+375,24,7,Repaso Pre-Parcial,"Repaso: regresión clasificación árboles ensemble; Problemas tipo examen; Laboratorio",review
+376,24,8,EXAMEN PARCIAL,"Regresión regularizada; Clasificación; Árboles; Ensemble methods",exam
+377,24,9,Clustering,"K-Means; Clustering jerárquico; DBSCAN; Segmentación de clientes/mercados",class
+378,24,10,Reducción de Dimensionalidad,"PCA; t-SNE; Aplicación: análisis de indicadores económicos; Visualización",class
+379,24,11,Series de Tiempo con ML,"Features temporales; Lag features; Prophet; LSTM intro; Pronóstico de precios",class
+380,24,12,NLP para Economía,"Análisis de sentimiento; Bag of words TF-IDF; Sentiment de noticias financieras; Trading signals",class
+381,24,13,Proyecto ML I,"Selección de problema económico; EDA; Feature engineering; Modelamiento",project
+382,24,14,Proyecto ML II,"Tuning; Evaluación; Interpretabilidad SHAP; Informe y presentación",project
+383,24,15,Repaso Pre-Final,"Repaso: clustering PCA series NLP; Problemas tipo examen final",review
+384,24,16,EXAMEN FINAL,"Clustering; PCA; Series con ML; NLP; Proyecto",exam
+385,25,1,Sistema Monetario Internacional,"Patrón oro; Bretton Woods; Tipos de cambio flotantes; Sistema actual",class
+386,25,2,Mercado de Divisas,"Estructura del mercado forex; Spot y forward; Cross rates; Arbitraje de tasas",class
+387,25,3,Paridad de Tasas de Interés,"Paridad cubierta y descubierta; Forward premium; Carry trade; Evidencia empírica",class
+388,25,4,Paridad de Poder Adquisitivo,"PPP absoluta y relativa; Ley de un solo precio; Big Mac Index; Desviaciones de PPP",class
+389,25,5,Determinación del Tipo de Cambio,"Modelo monetario; Modelo de portafolio; Overshooting de Dornbusch; Expectativas",class
+390,25,6,Balanza de Pagos,"Cuenta corriente y financiera; Déficit y superávit; Sostenibilidad; Caso Perú",class
+391,25,7,Repaso Pre-Parcial,"Repaso: forex paridades tipo de cambio balanza; Problemas tipo examen",review
+392,25,8,EXAMEN PARCIAL,"Sistema monetario; Forex; Paridades; Tipo de cambio; Balanza de pagos",exam
+393,25,9,Crisis Cambiarias,"Modelos de primera segunda y tercera generación; Ataques especulativos; Contagio; Casos históricos",class
+394,25,10,Flujos de Capital,"Inversión extranjera directa; Portafolio; Hot money; Controles de capital",class
+395,25,11,Mercados Emergentes,"Riesgo país EMBI; Spreads soberanos; Dolarización; Vulnerabilidades",class
+396,25,12,Integración Financiera,"Globalización financiera; Trilema de Mundell; Coordinación de políticas; Arquitectura financiera global",class
+397,25,13,Trabajo Aplicado I,"Selección de tema; Recolección de datos; Análisis empírico; Metodología",project
+398,25,14,Trabajo Aplicado II,"Resultados; Interpretación; Redacción; Presentación",project
+399,25,15,Repaso Pre-Final,"Repaso: crisis flujos emergentes integración; Problemas tipo examen final",review
+400,25,16,EXAMEN FINAL,"Crisis cambiarias; Flujos de capital; Mercados emergentes; Integración financiera",exam
+401,26,1,Introducción al Trading Algorítmico,"¿Qué es algo trading?; Tipos de estrategias; Infraestructura; Regulación y ética",class
+402,26,2,Datos de Mercado,"Fuentes de datos; OHLCV; Tick data; Limpieza y almacenamiento; APIs de brokers",class
+403,26,3,Backtesting Framework,"Diseño de backtester; Vectorized vs event-driven; Métricas: Sharpe Sortino drawdown; Overfitting",class
+404,26,4,Estrategias de Momentum,"Moving averages; RSI MACD; Breakout; Implementación y backtesting",class
+405,26,5,Estrategias de Mean Reversion,"Bollinger Bands; Z-score; Pairs trading; Cointegración para trading",class
+406,26,6,Estrategias con ML,"Features de mercado; Clasificación de señales; Ensemble para trading; Walk-forward validation",class
+407,26,7,Repaso Pre-Parcial,"Repaso: datos backtesting momentum mean reversion ML; Problemas tipo examen",review
+408,26,8,EXAMEN PARCIAL,"Datos de mercado; Backtesting; Estrategias momentum y mean reversion; ML",exam
+409,26,9,Gestión de Riesgo en Trading,"Position sizing; Kelly criterion; Stop loss y take profit; Risk per trade",class
+410,26,10,Ejecución de Órdenes,"Tipos de órdenes; Slippage y market impact; Algoritmos de ejecución TWAP VWAP; Latencia",class
+411,26,11,Trading en Vivo,"Paper trading; Conexión a broker API; Monitoreo en tiempo real; Logging y alertas",class
+412,26,12,Proyecto: Bot de Trading I,"Diseño de estrategia; Implementación; Backtesting exhaustivo; Optimización de parámetros",project
+413,26,13,Proyecto: Bot de Trading II,"Paper trading; Análisis de resultados; Ajustes; Risk management",project
+414,26,14,Proyecto: Bot de Trading III,"Deployment; Monitoreo; Documentación; Dashboard de performance",project
+415,26,15,Presentación de Proyectos,"Presentación de bots; Análisis de performance; Feedback; Lecciones aprendidas",project
+416,26,16,Entrega Final,"Bot de trading completo; Documentación; Resultados de paper trading; Presentación",exam
+417,27,1,Introducción a Behavioral Finance,"Finanzas tradicionales vs behavioral; Racionalidad limitada; Heurísticas; Anomalías de mercado",class
+418,27,2,Sesgos Cognitivos I,"Overconfidence; Anchoring; Representativeness; Availability; Ejemplos financieros",class
+419,27,3,Sesgos Cognitivos II,"Loss aversion; Endowment effect; Status quo bias; Mental accounting; Prospect theory",class
+420,27,4,Prospect Theory,"Kahneman y Tversky; Función de valor; Ponderación de probabilidades; Aplicaciones financieras",class
+421,27,5,Anomalías de Mercado,"Momentum anomaly; Value premium; Size effect; Calendar effects; Limits to arbitrage",class
+422,27,6,Sentimiento de Mercado,"Indicadores de sentimiento; Fear and Greed; VIX; Social media y mercados",class
+423,27,7,Repaso Pre-Parcial,"Repaso: sesgos prospect theory anomalías sentimiento; Problemas tipo examen",review
+424,27,8,EXAMEN PARCIAL,"Sesgos cognitivos; Prospect theory; Anomalías; Sentimiento",exam
+425,27,9,Burbujas y Crashes,"Anatomía de una burbuja; Tulipomanía South Sea Dot-com; Herding; Feedback positivo",class
+426,27,10,Behavioral Corporate Finance,"Sesgos de CEOs; Inversión subóptima; M&A y overconfidence; Estructura de capital behavioral",class
+427,27,11,Nudges y Arquitectura de Decisiones,"Nudge theory Thaler Sunstein; Defaults; Framing; Aplicaciones en ahorro e inversión",class
+428,27,12,Neuroeconomía,"Bases neuronales de decisiones; fMRI y economía; Dopamina y riesgo; Fronteras de investigación",class
+429,27,13,Experimentos Conductuales,"Diseño experimental; Ultimatum game; Dictator game; Trust game; Análisis de resultados",project
+430,27,14,Ensayo: Behavioral Finance Aplicado,"Desarrollo de ensayo; Caso de anomalía o sesgo; Evidencia empírica; Implicancias de política",project
+431,27,15,Repaso Pre-Final,"Repaso: burbujas corporate nudges neuro; Problemas tipo examen final",review
+432,27,16,EXAMEN FINAL,"Burbujas; Behavioral corporate; Nudges; Neuroeconomía",exam
+433,28,1,Arquitectura de Software para Finanzas,"Monolito vs microservicios; Patrones arquitectónicos; Requisitos de sistemas financieros; Latencia y disponibilidad",class
+434,28,2,Microservicios Financieros,"Diseño de microservicios; API Gateway; Service discovery; Comunicación síncrona y asíncrona",class
+435,28,3,Event-Driven Architecture,"Eventos de dominio; Message brokers RabbitMQ Kafka; Event sourcing; CQRS",class
+436,28,4,Sistemas de Pricing,"Motor de pricing; Reglas de negocio; Configuración dinámica; Integración con mercado",class
+437,28,5,Integración con ERPs,"SAP NetSuite intro; APIs de integración; Mapeo de datos; Reconciliación",class
+438,28,6,Motores de Reglas,"Policy engine; Reglas de compliance; Decisiones automatizadas; Frameworks",class
+439,28,7,Repaso Pre-Parcial,"Repaso: microservicios eventos pricing ERP reglas; Problemas tipo examen",review
+440,28,8,EXAMEN PARCIAL,"Microservicios; Event-driven; Pricing; ERP; Motores de reglas",exam
+441,28,9,Seguridad en Sistemas Financieros,"Autenticación y autorización; Encriptación; PCI DSS; Auditoría y logging",class
+442,28,10,Observabilidad y Monitoreo,"Métricas logs traces; Prometheus Grafana; Alertas; SLAs y SLOs",class
+443,28,11,DevOps para Finanzas,"CI/CD; Containers Docker; Kubernetes intro; Infrastructure as Code",class
+444,28,12,Proyecto: Sistema Financiero I,"Diseño de arquitectura; Definición de microservicios; API design; Setup del proyecto",project
+445,28,13,Proyecto: Sistema Financiero II,"Implementación de servicios core; Integración; Testing; Event handling",project
+446,28,14,Proyecto: Sistema Financiero III,"Deployment; Monitoreo; Documentación; Performance testing",project
+447,28,15,Presentación de Proyectos,"Demo del sistema; Arquitectura; Decisiones técnicas; Feedback",project
+448,28,16,Entrega Final,"Sistema completo; Documentación; Presentación ante jurado",exam
+449,29,1,Introducción a Economía Pública,"Fallas de mercado y rol del Estado; Bienes públicos; Externalidades; Teorema de Coase revisitado",class
+450,29,2,Teoría de la Tributación,"Principios tributarios; Impuestos directos e indirectos; Incidencia tributaria; Carga excesiva",class
+451,29,3,Diseño de Sistemas Tributarios,"Eficiencia vs equidad; Impuesto óptimo Ramsey; Curva de Laffer; Reforma tributaria",class
+452,29,4,Gasto Público y Presupuesto,"Presupuesto público; Análisis costo-beneficio; Evaluación de programas; Eficiencia del gasto",class
+453,29,5,Regulación Financiera I,"¿Por qué regular?; Regulación prudencial; Supervisión bancaria; SBS y SMV en Perú",class
+454,29,6,Regulación Financiera II,"Basilea III implementación; Regulación de mercados de valores; Fintech y regulación; Sandbox regulatorio",class
+455,29,7,Repaso Pre-Parcial,"Repaso: economía pública tributación regulación; Problemas tipo examen; Debates",review
+456,29,8,EXAMEN PARCIAL,"Economía pública; Tributación; Regulación financiera",exam
+457,29,9,Política de Competencia,"Antimonopolio; Fusiones y concentraciones; Abuso de posición dominante; Casos reales",class
+458,29,10,Regulación de Servicios Públicos,"Monopolio natural; Tarifas reguladas; Incentivos; Privatización vs regulación",class
+459,29,11,Economía del Medio Ambiente,"Externalidades ambientales; Cap and trade; Impuesto al carbono; Economía circular",class
+460,29,12,Economía Digital y Regulación,"Plataformas digitales; Datos y privacidad; Criptomonedas y regulación; CBDC",class
+461,29,13,Debate: Política Económica,"Preparación de posiciones; Debate formal; Análisis de argumentos; Síntesis",project
+462,29,14,Ensayo: Regulación y Política,"Desarrollo de ensayo; Caso de regulación; Propuesta de política; Revisión",project
+463,29,15,Repaso Pre-Final,"Repaso: competencia servicios ambiente digital; Problemas tipo examen final",review
+464,29,16,EXAMEN FINAL,"Competencia; Servicios públicos; Medio ambiente; Economía digital",exam
+465,30,1,Definición del Proyecto,"Selección de tema; Revisión de literatura; Pregunta de investigación; Justificación",class
+466,30,2,Marco Teórico,"Teorías relevantes; Estado del arte; Hipótesis; Variables",class
+467,30,3,Metodología,"Diseño de investigación; Datos y fuentes; Técnicas de análisis; Limitaciones",class
+468,30,4,Recolección de Datos,"Fuentes primarias y secundarias; APIs y bases de datos; Limpieza; Almacenamiento",class
+469,30,5,Avance 1: Presentación,"Presentación de propuesta; Feedback del asesor; Ajustes; Plan de trabajo",project
+470,30,6,Desarrollo I,"Implementación del modelo/sistema; Análisis preliminar; Iteración; Documentación",project
+471,30,7,Desarrollo II,"Resultados preliminares; Validación; Ajustes metodológicos; Avance de redacción",project
+472,30,8,Desarrollo III,"Resultados finales; Análisis de robustez; Conclusiones preliminares",project
+473,30,9,Avance 2: Presentación,"Presentación de avance; Resultados; Feedback; Ajustes finales",project
+474,30,10,Redacción I,"Estructura del documento; Introducción y marco teórico; Metodología; Estilo académico",project
+475,30,11,Redacción II,"Resultados y discusión; Conclusiones; Recomendaciones; Referencias",project
+476,30,12,Redacción III,"Revisión completa; Abstract y resumen ejecutivo; Anexos; Formato final",project
+477,30,13,Preparación de Sustentación,"Diseño de presentación; Ensayo de sustentación; Preguntas frecuentes; Timing",project
+478,30,14,Pre-sustentación,"Presentación ante pares; Feedback final; Últimos ajustes; Preparación mental",project
+479,30,15,Sustentación Final,"Presentación ante jurado; Defensa del proyecto; Preguntas y respuestas; Evaluación",exam
+480,30,16,Cierre y Reflexión,"Entrega de documento final; Retroalimentación; Reflexión sobre la carrera; Próximos pasos",class

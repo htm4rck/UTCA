@@ -1,0 +1,116 @@
+id,curso_id,component,weight
+1,1,Prácticas calificadas,30
+2,1,Examen parcial,30
+3,1,Examen final,40
+4,2,Participación y debates,20
+5,2,Trabajos aplicados,30
+6,2,Examen parcial,20
+7,2,Examen final,30
+8,3,Ensayos,30
+9,3,Exposiciones,20
+10,3,Examen parcial,20
+11,3,Examen final,30
+12,4,Laboratorios semanales,30
+13,4,Examen parcial (práctico),25
+14,4,Proyecto final,30
+15,4,Participación,15
+16,5,Talleres prácticos,40
+17,5,Proyecto dashboard,30
+18,5,Examen práctico final,30
+19,6,Prácticas calificadas,30
+20,6,Examen parcial,30
+21,6,Examen final,40
+22,7,Laboratorios,30
+23,7,Examen parcial,30
+24,7,Examen final,40
+25,8,Prácticas calificadas,25
+26,8,Examen parcial,30
+27,8,Proyecto aplicado,15
+28,8,Examen final,30
+29,9,Casos prácticos,30
+30,9,Examen parcial,30
+31,9,Examen final,40
+32,10,Laboratorios semanales,30
+33,10,Examen parcial (práctico),20
+34,10,Proyecto dashboard,35
+35,10,Participación,15
+36,11,Prácticas calificadas,25
+37,11,Examen parcial,25
+38,11,Proyecto modelo,20
+39,11,Examen final,30
+40,12,Laboratorios,30
+41,12,Examen parcial,25
+42,12,Proyecto aplicado,15
+43,12,Examen final,30
+44,13,Prácticas calificadas,25
+45,13,Examen parcial,30
+46,13,Ensayo analítico,15
+47,13,Examen final,30
+48,14,Prácticas calificadas,25
+49,14,Examen parcial,30
+50,14,Trabajo aplicado,15
+51,14,Examen final,30
+52,15,Laboratorios semanales,35
+53,15,Examen parcial (práctico),25
+54,15,Proyecto final,25
+55,15,Participación,15
+56,16,Prácticas calificadas,25
+57,16,Examen parcial,30
+58,16,Proyecto aplicado,15
+59,16,Examen final,30
+60,17,Prácticas calificadas,25
+61,17,Examen parcial,30
+62,17,Trabajo aplicado,15
+63,17,Examen final,30
+64,18,Casos prácticos,30
+65,18,Examen parcial,25
+66,18,Proyecto valoración,15
+67,18,Examen final,30
+68,19,Prácticas calificadas,25
+69,19,Examen parcial,30
+70,19,Simulaciones,15
+71,19,Examen final,30
+72,20,Laboratorios,30
+73,20,Examen parcial (práctico),25
+74,20,Proyecto pipeline,30
+75,20,Participación,15
+76,21,Laboratorios,30
+77,21,Examen parcial,25
+78,21,Proyecto series,15
+79,21,Examen final,30
+80,22,Prácticas calificadas,25
+81,22,Examen parcial,30
+82,22,Proyecto pricing,15
+83,22,Examen final,30
+84,23,Casos prácticos,25
+85,23,Examen parcial,25
+86,23,Proyecto riesgo,20
+87,23,Examen final,30
+88,24,Laboratorios,30
+89,24,Examen parcial,20
+90,24,Proyecto ML,30
+91,24,Participación,20
+92,25,Prácticas calificadas,25
+93,25,Examen parcial,30
+94,25,Trabajo aplicado,15
+95,25,Examen final,30
+96,26,Laboratorios,25
+97,26,Examen parcial,20
+98,26,Proyecto bot trading,35
+99,26,Participación,20
+100,27,Ensayos,30
+101,27,Exposiciones,20
+102,27,Examen parcial,20
+103,27,Examen final,30
+104,28,Proyecto sistema,40
+105,28,Examen parcial,25
+106,28,Presentación,15
+107,28,Participación,20
+108,29,Ensayos,25
+109,29,Debates,20
+110,29,Examen parcial,25
+111,29,Examen final,30
+112,30,Avance 1,15
+113,30,Avance 2,20
+114,30,Documento final,35
+115,30,Sustentación,30

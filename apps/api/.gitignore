@@ -1,0 +1,16 @@
+# Compiled output
+/dist
+
+# Node
+/node_modules
+npm-debug.log
+
+# Env
+.env
+
+# Coverage
+/coverage
+
+# System
+.DS_Store
+Thumbs.db

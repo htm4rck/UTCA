@@ -67,10 +67,10 @@ npx ng serve
 
 | Recurso | URL |
 |---------|-----|
-| Frontend | http://localhost:4200 |
-| API | http://localhost:3000/api |
-| Malla curricular (PDF) | http://localhost:3000/api/reports/malla |
-| Sílabo de curso (PDF) | http://localhost:3000/api/reports/silabo/{cursoId} |
+| Frontend | http://localhost:4999 |
+| API | http://localhost:3999/api |
+| Malla curricular (PDF) | http://localhost:3999/api/reports/malla |
+| Sílabo de curso (PDF) | http://localhost:3999/api/reports/silabo/{cursoId} |
 
 ## API Endpoints
 

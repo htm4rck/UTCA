@@ -19,8 +19,9 @@ export class SeedService implements OnModuleInit {
   ) {}
 
   async onModuleInit() {
-    const count = await this.carreraRepo.count();
-    if (count > 0) {
+    const csvCount = this.readCsv<any>('carreras.csv').length;
+    const dbCount = await this.carreraRepo.count();
+    if (dbCount >= csvCount) {
       this.logger.log('Database already seeded, skipping...');
       return;
     }
@@ -38,52 +39,67 @@ export class SeedService implements OnModuleInit {
 
     const carreras = this.readCsv<any>('carreras.csv');
     for (const row of carreras) {
-      await this.carreraRepo.save(this.carreraRepo.create({
-        id: +row.id, code: row.code, name: row.name,
-        degree: row.degree, faculty: row.faculty, description: row.description,
-      }));
+      const exists = await this.carreraRepo.findOne({ where: { id: +row.id } });
+      if (!exists) {
+        await this.carreraRepo.save(this.carreraRepo.create({
+          id: +row.id, code: row.code, name: row.name,
+          degree: row.degree, faculty: row.faculty, description: row.description,
+        }));
+      }
     }
-    this.logger.log(`Seeded ${carreras.length} carreras`);
+    this.logger.log(`Seeded carreras (total: ${carreras.length})`);
 
     const ciclos = this.readCsv<any>('ciclos.csv');
     for (const row of ciclos) {
-      await this.cicloRepo.save(this.cicloRepo.create({
-        id: +row.id, number: +row.number, name: row.name,
-        layer: row.layer, focus: row.focus,
-        carrera: { id: +row.carrera_id } as Carrera,
-      }));
+      const exists = await this.cicloRepo.findOne({ where: { id: +row.id } });
+      if (!exists) {
+        await this.cicloRepo.save(this.cicloRepo.create({
+          id: +row.id, number: +row.number, name: row.name,
+          layer: row.layer, focus: row.focus,
+          carrera: { id: +row.carrera_id } as Carrera,
+        }));
+      }
     }
-    this.logger.log(`Seeded ${ciclos.length} ciclos`);
+    this.logger.log(`Seeded ciclos (total: ${ciclos.length})`);
 
     const cursos = this.readCsv<any>('cursos.csv');
     for (const row of cursos) {
-      await this.cursoRepo.save(this.cursoRepo.create({
-        id: +row.id, order: +row.order, code: row.code, name: row.name,
-        description: row.description, methodology: row.methodology,
-        bibliography: row.bibliography,
-        ciclo: { id: +row.ciclo_id } as Ciclo,
-      }));
+      const exists = await this.cursoRepo.findOne({ where: { id: +row.id } });
+      if (!exists) {
+        await this.cursoRepo.save(this.cursoRepo.create({
+          id: +row.id, order: +row.order, code: row.code, name: row.name,
+          description: row.description, methodology: row.methodology,
+          bibliography: row.bibliography,
+          ciclo: { id: +row.ciclo_id } as Ciclo,
+        }));
+      }
     }
-    this.logger.log(`Seeded ${cursos.length} cursos`);
+    this.logger.log(`Seeded cursos (total: ${cursos.length})`);
 
     const semanas = this.readCsv<any>('semanas.csv');
     for (const row of semanas) {
-      await this.semanaRepo.save(this.semanaRepo.create({
-        id: +row.id, number: +row.number, title: row.title,
-        topics: row.topics, type: row.type,
-        curso: { id: +row.curso_id } as Curso,
-      }));
+      const exists = await this.semanaRepo.findOne({ where: { id: +row.id } });
+      if (!exists) {
+        await this.semanaRepo.save(this.semanaRepo.create({
+          id: +row.id, number: +row.number, title: row.title,
+          topics: row.topics, type: row.type,
+          curso: { id: +row.curso_id } as Curso,
+        }));
+      }
     }
-    this.logger.log(`Seeded ${semanas.length} semanas`);
+    this.logger.log(`Seeded semanas (total: ${semanas.length})`);
 
     const evaluaciones = this.readCsv<any>('evaluaciones.csv');
     for (const row of evaluaciones) {
-      await this.evaluacionRepo.save(this.evaluacionRepo.create({
-        id: +row.id, component: row.component, weight: +row.weight,
-        curso: { id: +row.curso_id } as Curso,
-      }));
+      const exists = await this.evaluacionRepo.findOne({ where: { id: +row.id } });
+      if (!exists) {
+        await this.evaluacionRepo.save(this.evaluacionRepo.create({
+          id: +row.id, component: row.component, weight: +row.weight,
+          curso: { id: +row.curso_id } as Curso,
+        }));
+      }
     }
-    this.logger.log(`Seeded ${evaluaciones.length} evaluaciones`);
+    this.logger.log(`Seeded evaluaciones (total: ${evaluaciones.length})`);
 
     this.logger.log('Database seeding complete!');
   }

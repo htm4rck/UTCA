@@ -1,2 +1,4 @@
 id,code,name,degree,faculty,description
 1,EC,Economía Cuantitativa,Bachiller en Economía con mención en Ingeniería Financiera y Ciencia de Datos,Facultad de Ciencias Económicas y Analítica de Datos,Carrera diseñada para formar arquitectos de decisiones económicas basadas en datos
+2,IS,Ingeniería de Software,Bachiller en Ingeniería de Software,Facultad de Ciencias Económicas y Analítica de Datos,Carrera orientada al diseño y construcción de sistemas de software escalables con enfoque en arquitectura cloud y metodologías ágiles
+3,CD,Ciencia de Datos e Inteligencia Artificial,Bachiller en Ciencia de Datos con mención en Inteligencia Artificial,Facultad de Ciencias Económicas y Analítica de Datos,Carrera que integra estadística computacional y aprendizaje automático para la extracción de conocimiento a partir de grandes volúmenes de datos

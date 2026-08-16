@@ -99,6 +99,16 @@ npx ng serve
 | GET | /api/reports/malla | Malla curricular completa |
 | GET | /api/reports/silabo/:cursoId | Sílabo de un curso específico |
 
+## Avance de Ejecución del Plan
+
+- ✅ Fase 0 iniciada: validación estricta de payloads y parámetros en endpoints críticos (`notas`, `ejercicios`, `carreras`, `cursos`, `semanas`, `reports`).
+- ✅ Configuración de base de datos endurecida con `DB_SYNCHRONIZE` y `NODE_ENV` para evitar sincronización automática en producción por defecto.
+- ✅ Se agregó `apps/api/.env.example` para estandarizar la configuración por entorno.
+
+## Hoja de Ruta de Robustez
+
+- Plan integral recomendado: `docs/PLAN_ROBUSTEZ_UTCA.md`
+
 ## Licencia
 
 Proyecto académico — UTCA, Lima, Perú.
